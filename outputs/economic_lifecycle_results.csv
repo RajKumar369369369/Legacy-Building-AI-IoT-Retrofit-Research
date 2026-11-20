@@ -1,0 +1,9 @@
+tier,priority,capex,annual_opex,annual_bill_savings,simple_payback_years,NPV,embodied_kgco2e,annual_operational_kgco2e_avoided,CFPG_years,comfort_degree_hours
+Baseline,cost_first,0.0,12455.0,0.0,0.0,-106608.31,0.0,0.0,0.0,4534.2
+Tier 1 - Smart scheduling,cost_first,32383.0,5978.4,-1623.3445474545515,32383.0,-97449.97,9964.0,-7969.47,9964.0,12352.1
+Tier 2 - Occupancy + CO2 sensing,cost_first,89676.0,13949.599999999999,-3583.1790717568947,89676.0,-239747.45,37365.0,-8298.95,37365.0,20721.9
+Tier 3 - Dense sensing + edge digital twin,cost_first,174370.0,22419.0,42.996204981944175,174370.0,-365896.93,69748.0,82.09,849.67,37788.1
+Baseline,carbon_first,0.0,12455.0,0.0,0.0,-106608.31,0.0,0.0,0.0,4534.2
+Tier 1 - Smart scheduling,carbon_first,32383.0,5978.4,-1623.3445474545515,32383.0,-97449.97,9964.0,-7969.47,9964.0,12352.1
+Tier 2 - Occupancy + CO2 sensing,carbon_first,89676.0,13949.599999999999,-3583.1790717568947,89676.0,-239747.45,37365.0,-8298.95,37365.0,20721.9
+Tier 3 - Dense sensing + edge digital twin,carbon_first,174370.0,22419.0,42.996204981944175,174370.0,-365896.93,69748.0,82.09,849.67,37788.1

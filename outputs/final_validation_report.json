@@ -1,0 +1,27 @@
+{
+  "project_scope": "whole-building AI-IoT retrofit: HVAC, lighting, ventilation, and whole-building electricity",
+  "measured_dataset": "LBNL Building 59 (2018 Clean Data, 8,760 hourly records)",
+  "baseline_model": {
+    "model_type": "XGBoost Regressor",
+    "r2_score": -0.0313,
+    "cv_rmse_percent": 33.36
+  },
+  "sensor_anomaly_detector": {
+    "model_type": "PyTorch Variational Autoencoder (VAE)",
+    "threshold_99th_pct": 0.6208
+  },
+  "simulation_engine": "Gymnasium Building Physics (Zero-Deadlock Architecture)",
+  "ppo_agents_trained": [
+    "cost_first",
+    "carbon_first"
+  ],
+  "nsga2_pareto_solutions_count": 4,
+  "exported_artifacts": [
+    "economic_lifecycle_results.csv",
+    "final_validation_report.json",
+    "nsga2_pareto_results.csv",
+    "ppo_carbon_first.zip",
+    "ppo_cost_first.zip",
+    "retrofit_economic_carbon_summary.csv"
+  ]
+}

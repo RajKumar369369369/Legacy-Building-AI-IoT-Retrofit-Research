@@ -1,0 +1,5 @@
+tier,priority,capex,annual_opex,annual_bill_savings,simple_payback_years,NPV,embodied_kgco2e,annual_operational_kgco2e_avoided,CFPG_years,comfort_degree_hours,life_cost,net_lifecycle_carbon,Pareto_Optimal
+Tier 1 - Smart scheduling,cost_first,32383.0,5978.4,-1623.3445474545515,32383.0,-97449.97,9964.0,-7969.47,9964.0,12352.1,129832.97,129506.05,True
+Tier 3 - Dense sensing + edge digital twin,cost_first,174370.0,22419.0,42.996204981944175,174370.0,-365896.93,69748.0,82.09,849.67,37788.1,540266.9299999999,68516.65,True
+Tier 1 - Smart scheduling,carbon_first,32383.0,5978.4,-1623.3445474545515,32383.0,-97449.97,9964.0,-7969.47,9964.0,12352.1,129832.97,129506.05,True
+Tier 3 - Dense sensing + edge digital twin,carbon_first,174370.0,22419.0,42.996204981944175,174370.0,-365896.93,69748.0,82.09,849.67,37788.1,540266.9299999999,68516.65,True
